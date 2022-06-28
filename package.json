@@ -1,0 +1,18 @@
+{
+    "name": "allure-report-html",
+    "version": "0.0.2",
+    "main": "index.js",
+    "author": "Evgeny Bazhanov <ebazhanov@yahoo.com>",
+    "license": "MIT",
+    "scripts": {
+        "cy:open": "cypress open --env allure=true --browser chrome",
+        "cy:run": "cypress run --env allure=true --browser chrome",
+        "allure:report": "allure generate allure-results --clean -o allure-report",
+        "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true"
+    },
+    "devDependencies": {
+        "@shelex/cypress-allure-plugin": "^2.2.0",
+        "allure-commandline": "^2.13.8",
+        "cypress": "^6.4.0"
+    }
+}
