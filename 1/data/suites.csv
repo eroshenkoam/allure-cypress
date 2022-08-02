@@ -1,0 +1,21 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 02 11:22:09 GMT 2022","Tue Aug 02 11:22:10 GMT 2022","817","","Actions","subSuiteValue","","",".rightclick() - right click on a DOM element","
+      Our app has a listener on 'contextmenu' event in our 'scripts.js'
+      that hides the div and shows an input on right click"
+"passed","Tue Aug 02 11:22:01 GMT 2022","Tue Aug 02 11:22:02 GMT 2022","1378","","Actions","","","",".submit() - submit a form",""
+"passed","Tue Aug 02 11:22:30 GMT 2022","Tue Aug 02 11:22:47 GMT 2022","16890","","Actions","","","",".uncheck() - uncheck a checkbox element",""
+"passed","Tue Aug 02 11:22:08 GMT 2022","Tue Aug 02 11:22:09 GMT 2022","858","","Actions","","","",".dblclick() - double click on a DOM element","
+      Our app has a listener on 'dblclick' event in our 'scripts.js'
+      that hides the div and shows an input on double click"
+"passed","Tue Aug 02 11:22:51 GMT 2022","Tue Aug 02 11:23:00 GMT 2022","8736","","Actions","","","","cy.scrollTo() - scroll the window or element to a position",""
+"passed","Tue Aug 02 11:22:49 GMT 2022","Tue Aug 02 11:22:50 GMT 2022","841","","Actions","","","",".scrollIntoView() - scroll an element into view",""
+"passed","Tue Aug 02 11:22:12 GMT 2022","Tue Aug 02 11:22:30 GMT 2022","18146","","Actions","","","",".type() - type into a DOM element",""
+"passed","Tue Aug 02 11:21:57 GMT 2022","Tue Aug 02 11:21:59 GMT 2022","1845","","Actions","","","",".blur() - blur off a DOM element",""
+"passed","Tue Aug 02 11:22:47 GMT 2022","Tue Aug 02 11:22:49 GMT 2022","1914","","Actions","","","",".select() - select an option in a <select> element",""
+"passed","Tue Aug 02 11:21:59 GMT 2022","Tue Aug 02 11:22:01 GMT 2022","1531","","Actions","","","",".clear() - clears an input or textarea element",""
+"failed","Tue Aug 02 11:21:50 GMT 2022","Tue Aug 02 11:21:57 GMT 2022","6702","","Actions","","","",".focus() - focus on a DOM element",""
+"passed","Tue Aug 02 11:22:10 GMT 2022","Tue Aug 02 11:22:12 GMT 2022","1998","","Actions","","","",".check() - check a checkbox or radio element","
+      By default, .check() will check all
+      matching checkbox or radio elements in succession, one after another"
+"passed","Tue Aug 02 11:22:50 GMT 2022","Tue Aug 02 11:22:51 GMT 2022","602","","Actions","","","",".trigger() - trigger an event on a DOM element",""
+"passed","Tue Aug 02 11:22:02 GMT 2022","Tue Aug 02 11:22:08 GMT 2022","6247","","Actions","","","",".click() - click on a DOM element",""
