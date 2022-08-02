@@ -14,13 +14,13 @@ jobs:
         with:
           node-version: 14
 
-       - name: Cypress run
+      - name: Cypress Run
         uses: cypress-io/github-action@v4
         with:
           build: yarn install
           start: yarn cy:run
 
-      - name: Allure history
+      - name: Allure History
         uses: actions/checkout@v2
         if: always()
         with:
