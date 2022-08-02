@@ -1,0 +1,12 @@
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Node
+node_modules/
+
+# Idea
+.idea
+
+# Allure
+allure-results
